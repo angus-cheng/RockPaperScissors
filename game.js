@@ -43,7 +43,7 @@ let game = function() {
                 compScore++;
                 break;
         }
-        
+        window.alert(`Player score: ${playerScore} \nComputer Score: ${compScore}`)
         console.log(`Your score: ${playerScore}. Computer's score: ${compScore}`);
     }
 
